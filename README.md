@@ -16,6 +16,6 @@ Restarts the App
 ## openApp(_ bundleID: String)
 Open's the App with the specified Bundle ID
 
-And one function you have to use once (on App Start for Example) to initialize it:
+## And one function you have to use once (on App Start for Example) to initialize it:
 ## initializeFriendlyService() 
 Uses EvilFind() to set the WorkSpace
