@@ -12,7 +12,6 @@ struct FriendlyPackageExample: View {
         initializeFriendlyService()
     }
     var body: some View {
-        NavigationStack {
             VStack {
                 Button("Restart App") {
                     restartApp()
@@ -22,7 +21,6 @@ struct FriendlyPackageExample: View {
                 }
             }
             .padding()
-        }
     }
 }
 
